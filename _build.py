@@ -180,7 +180,11 @@ page("index.html", "온유 리모트 — 내 맥을 어디서든 렉 없이", f"
       <div class="row"><span>크기</span><span data-size>{R['size']}</span></div>
       <div class="row"><span>요구 사항</span><span>macOS 15 이상 · Apple 실리콘·Intel</span></div>
       <div class="row"><span>서명</span><span>Developer ID · Apple 공증</span></div>
-      <div class="row"><span>SHA-256</span><code data-sha>{R['sha256']}</code></div>
+      <details class="more">
+        <summary>자세히</summary>
+        <div class="row"><span>SHA-256</span><code data-sha>{R['sha256']}</code></div>
+        <p class="fine">받은 파일이 원본과 같은지 확인하는 값입니다. 터미널에서 <code>shasum -a 256 OnyuRemote.dmg</code>를 실행해 같은 값이 나오면 변조되지 않은 파일입니다. 확인하지 않아도 맥이 설치할 때 Apple 공증으로 따로 검증합니다.</p>
+      </details>
     </div>
     <p class="caption" style="margin-top:17px">아이폰·아이패드 앱은 <a href="{APPSTORE}">App Store</a>에서 받으세요. · <a href="changelog.html">변경 기록</a> · <a href="https://github.com/{REPO}/releases">이전 버전</a></p>
   </div>

@@ -138,6 +138,12 @@ h1, h2, h3 { margin: 0; font-family: var(--display); font-weight: 600; }
 .download-card .row span:first-child { color: var(--ink-48); white-space: nowrap; }
 .download-card code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 12px; letter-spacing: 0; word-break: break-all; text-align: right; }
 
+.download-card .more { border-top: 1px solid var(--hairline); padding-top: 12px; }
+.download-card .more summary { cursor: pointer; font-size: 14px; letter-spacing: -0.224px; color: var(--primary); list-style-position: outside; }
+.download-card .more .row { border-top: 0; }
+.download-card .more .fine { margin: 4px 0 0; }
+.download-card .more .fine code { font-size: 11px; text-align: left; }
+
 /* ── 글 위주 페이지 ── */
 .article { max-width: 760px; margin: 0 auto; padding: 64px 22px var(--section); }
 .article h1 { font-size: 40px; line-height: 1.1; }
