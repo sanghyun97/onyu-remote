@@ -324,7 +324,7 @@ VERSIONS = [
         "맥 알림을 아이폰으로(iCloud), 연결 중 맥 화면 가리기, 화면이 멈추면 더 선명하게.",
         "맥끼리 클립보드 공유, 항상 켜 두기, 페어링된 기기 하나씩 지우기, 앱 안 사용 설명서.",
     ]),
-    ("1.0", "2026년 11월 4일", ["첫 출시."]),
+    ("1.0", "2026년 11월 4일 · 맥 · 아이폰·아이패드는 11월 6일 App Store 공개", ["첫 출시."]),
 ]
 vhtml = "".join(f'<div class="version"><h2>{v}</h2><p class="caption">{d}</p><ul>{"".join(f"<li>{x}</li>" for x in items)}</ul></div>' for v, d, items in VERSIONS)
 
