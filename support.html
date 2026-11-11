@@ -1,26 +1,63 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>온유 리모트 지원</title><link rel="stylesheet" href="style.css"></head>
-<body><main>
-<h1>지원</h1>
-<div class="card">
-<p>문제가 있거나 궁금한 점은 아래에 남겨 주세요.</p>
-<a class="btn" href="https://github.com/sanghyun97/onyu-remote/issues/new">문의 남기기</a>
-<a class="btn secondary" href="index.html">맥 앱 내려받기</a>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>지원 — 온유 리모트</title>
+<meta name="description" content="온유 리모트 지원 — 자주 묻는 것과 문의.">
+<meta property="og:title" content="지원 — 온유 리모트">
+<meta property="og:description" content="온유 리모트 지원 — 자주 묻는 것과 문의.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sanghyun97.github.io/onyu-remote/support.html">
+<meta property="og:image" content="https://sanghyun97.github.io/onyu-remote/img/remote.jpg">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="global-nav" aria-label="사이트">
+  <div class="inner">
+    <a class="brand" href="./"><img src="icon.png" alt="" width="20" height="20">온유 리모트</a>
+    <a href="./#features" class="optional">기능</a>
+    <a href="install.html">설치 안내</a>
+    <a href="support.html">지원</a>
+    <a href="changelog.html" class="optional">변경 기록</a>
+  </div>
+</nav>
+<div class="sub-nav">
+  <div class="inner">
+    <span class="title">지원</span>
+    <div class="links">
+      <a href="./#security" class="optional">보안</a>
+      <a href="https://apps.apple.com/kr/app/id6830655052">App Store</a>
+      <a class="btn small" href="./#download">맥 앱 받기</a>
+    </div>
+  </div>
 </div>
+<main>
 
-<h2>자주 묻는 것</h2>
-<ul>
-<li><b>맥이 목록에 안 보여요</b> — 맥에서 온유 리모트가 켜져 있는지, 두 기기가 같은 Wi-Fi인지 확인하세요. 아이폰·아이패드는 설정 › 개인정보 보호 › 로컬 네트워크에서 온유 리모트를 허용해야 합니다.</li>
-<li><b>화면이 안 나와요</b> — 맥의 시스템 설정 › 개인정보 보호 및 보안 › 화면 기록에서 온유 리모트를 허용한 뒤 앱을 다시 켜세요.</li>
-<li><b>조작이 안 돼요</b> — 맥의 시스템 설정 › 개인정보 보호 및 보안 › 손쉬운 사용에서 온유 리모트를 허용하세요.</li>
-<li><b>밖에서 연결하려면</b> — 두 기기 모두 Tailscale을 같은 계정으로 켜고, 같은 Wi-Fi에서 한 번 연결해 두세요.</li>
-<li><b>페어링을 다시 하고 싶어요</b> — 맥의 온유 리모트 창 › 페어링된 기기에서 그 기기만 지우거나(1.1), 메뉴바 아이콘 › 페어링된 기기 모두 지우기 후 다시 연결하면 새 숫자가 뜹니다.</li>
-<li><b>맥 알림이 안 와요</b> — 아이폰 설정 › 맥 알림 받기를 켜고 알림을 허용하세요. 맥과 아이폰이 같은 iCloud 계정이어야 하고, 맥의 온유 리모트 창 › 아이폰으로 알림도 켜져 있어야 합니다(맥 앱 1.1 이상).</li>
-<li><b>한/영이 안 바뀌어요</b> — 패널의 [한/영] 버튼이나 연결한 키보드의 한/영(Caps Lock) 키를 누르세요. 맥에서 맥을 제어할 때는 내 맥의 한/영을 바꾸면 원격 맥도 따라 바뀝니다.</li>
-<li><b>맥에서 맥 제어할 때 ⌘Tab이 내 맥에서 동작해요</b> — 원격 화면을 한 번 클릭하고, 내 맥에서 온유 리모트에 '손쉬운 사용' 권한을 주세요. 내 맥으로 돌아오려면 ⌃⌥를 빠르게 두 번 누르세요.</li>
-<li><b>맥이 꺼져 있으면 연결이 안 돼요</b> — 맥의 온유 리모트 창에서 '항상 켜 두기'를 켜 두면 로그인할 때 켜지고, 꺼져도 다시 켜집니다.</li>
-<li><b>밖에서 느려요</b> — 앱의 연결 상태(점)를 누르면 지연이 보입니다. 중계 서버를 거치면 100ms가 넘습니다. 제어받는 맥 쪽 공유기 설정의 '포트포워딩'에서 UDP 41641(연결 중 안내에 나온 번호)을 그 맥의 내부 주소로 열어 두면 직접 연결돼 빨라집니다(맥 앱 1.1.2부터 중계 여부를 알려 줍니다).</li>
-</ul>
-<nav><a href="index.html">처음으로</a><a href="privacy.html">개인정보 처리방침</a></nav>
-</main></body></html>
+<article class="article">
+  <h1>지원</h1>
+  <p class="caption">자주 묻는 것부터 확인해 보세요. 해결되지 않으면 문의를 남겨 주세요.</p>
+  <p style="margin:24px 0 32px"><a class="btn" href="https://github.com/sanghyun97/onyu-remote/issues/new">문의 남기기</a> &nbsp; <a class="btn ghost" href="install.html">설치 안내</a></p>
+  <h2>자주 묻는 것</h2>
+  <details><summary>맥이 목록에 안 보여요</summary><p>맥에서 온유 리모트가 켜져 있는지, 두 기기가 같은 Wi-Fi인지 확인하세요. 아이폰·아이패드는 설정 › 개인정보 보호 및 보안 › 로컬 네트워크에서 온유 리모트를 허용해야 합니다.</p></details><details><summary>화면이 안 나오거나 연결이 바로 끊겨요</summary><p>맥의 시스템 설정 › 개인정보 보호 및 보안 › 화면 기록에서 온유 리모트를 허용한 뒤 앱을 다시 켜세요.</p></details><details><summary>화면은 보이는데 조작이 안 돼요</summary><p>맥의 시스템 설정 › 개인정보 보호 및 보안 › 손쉬운 사용에서 온유 리모트를 허용하세요.</p></details><details><summary>밖에서 연결하려면</summary><p>두 기기 모두 <a href="https://tailscale.com/download">Tailscale</a>을 같은 계정으로 켜고, 같은 Wi-Fi에서 한 번 연결해 두세요. 자세한 순서는 <a href="install.html">설치 안내</a>에 있습니다.</p></details><details><summary>밖에서 느려요</summary><p>앱의 연결 상태(점)를 누르면 지연이 보입니다. 중계 서버를 거치면 100ms가 넘습니다. 제어받는 맥 쪽 공유기의 포트포워딩에서 UDP 41641(연결 중 안내에 나온 번호)을 그 맥의 내부 주소로 열어 두면 직접 연결돼 빨라집니다.</p></details><details><summary>한/영이 안 바뀌어요</summary><p>패널의 [한/영] 버튼이나 연결한 키보드의 한/영(Caps Lock) 키를 누르세요. 맥에서 맥을 제어할 때는 내 맥의 한/영을 바꾸면 원격 맥도 따라 바뀝니다. 맥 앱을 최신 버전으로 업데이트해 주세요.</p></details><details><summary>맥에서 맥을 제어할 때 ⌘Tab이 내 맥에서 동작해요</summary><p>내 맥에서 온유 리모트에 손쉬운 사용 권한을 주고, 커서를 원격 화면 안에 두세요. 내 맥으로 돌아오려면 ⌃⌥를 빠르게 두 번 누릅니다.</p></details><details><summary>맥 알림이 안 와요</summary><p>아이폰 설정 › 맥 알림 받기를 켜고 알림을 허용하세요. 맥과 아이폰이 같은 iCloud 계정이어야 하고, 맥의 온유 리모트 창 › 아이폰으로 알림도 켜져 있어야 합니다. 맥 앱과 아이폰 앱 모두 1.1 이상이 필요합니다.</p></details><details><summary>페어링을 다시 하고 싶어요 / 기기를 잃어버렸어요</summary><p>맥의 온유 리모트 창 › 페어링된 기기에서 그 기기를 지우세요. 그 기기는 맥 화면의 숫자를 다시 넣어야 연결할 수 있습니다.</p></details><details><summary>맥이 꺼져 있거나 잠들어 있으면요</summary><p>맥이 켜져 있고 온유 리모트가 실행 중이어야 합니다. [항상 켜 두기]를 켜 두면 로그인할 때 켜지고 꺼져도 다시 켜집니다. 데스크톱 맥은 [잠자기 안 함]으로 본체가 잠들지 않게 할 수 있습니다.</p></details><details><summary>다른 사람이 내 맥에 연결할 수 있나요</summary><p>아니요. 맥 화면에 뜨는 6자리 숫자를 넣어 페어링한 기기만 연결할 수 있습니다. 숫자를 5번 틀리면 10분 동안 새 기기 연결을 막고, 인터넷 쪽에서 오는 처음 페어링은 받지 않습니다.</p></details>
+  <h2>앱 안 도움말</h2>
+  <p>아이폰·아이패드는 목록 화면의 [?] 또는 설정 › 사용 설명서, 맥은 온유 리모트 창의 [?]에서 사용 설명서를 볼 수 있습니다.</p>
+</article>
+
+</main>
+<footer class="footer">
+  <div class="inner">
+    <div class="cols">
+      <div><h4>온유 리모트</h4><a href="./">소개</a><a href="./#features">기능</a><a href="./#download">맥 앱 내려받기</a><a href="https://apps.apple.com/kr/app/id6830655052">아이폰·아이패드 (App Store)</a></div>
+      <div><h4>도움말</h4><a href="install.html">설치 안내</a><a href="support.html">자주 묻는 것</a><a href="changelog.html">변경 기록</a><a href="https://github.com/sanghyun97/onyu-remote/issues/new">문의 남기기</a></div>
+      <div><h4>정책</h4><a href="privacy.html">개인정보 처리방침</a><a href="https://github.com/sanghyun97/onyu-remote/releases">모든 버전</a></div>
+    </div>
+    <p class="legal">© 2026 SANGHYUN LEE. 온유 리모트는 개인 개발자가 만든 독립 앱으로 Apple Inc.와 관계가 없으며, Apple의 후원이나 승인을 받지 않았습니다. Apple, Mac, macOS, iPhone, iPad, App Store는 미국 및 그 밖의 나라에 등록된 Apple Inc.의 상표입니다. Tailscale은 Tailscale Inc.의 상표입니다.</p>
+  </div>
+</footer>
+<script src="site.js" defer></script>
+</body>
+</html>

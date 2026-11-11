@@ -1,34 +1,82 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>개인정보 처리방침</title><link rel="stylesheet" href="style.css"></head>
-<body><main>
-<h1>개인정보 처리방침</h1>
-<p class="muted">온유 리모트 · 시행일 2026년 11월 11일 (1.1)</p>
-
-<div class="card">
-<p><b>온유 리모트는 개인정보를 수집하지 않습니다.</b> 개발자나 제3자의 서버로 어떤 정보도 보내지 않으며, 광고·분석·추적 도구를 쓰지 않습니다.</p>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보 처리방침 — 온유 리모트</title>
+<meta name="description" content="온유 리모트 개인정보 처리방침 — 개인정보를 수집하지 않습니다.">
+<meta property="og:title" content="개인정보 처리방침 — 온유 리모트">
+<meta property="og:description" content="온유 리모트 개인정보 처리방침 — 개인정보를 수집하지 않습니다.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sanghyun97.github.io/onyu-remote/privacy.html">
+<meta property="og:image" content="https://sanghyun97.github.io/onyu-remote/img/remote.jpg">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="global-nav" aria-label="사이트">
+  <div class="inner">
+    <a class="brand" href="./"><img src="icon.png" alt="" width="20" height="20">온유 리모트</a>
+    <a href="./#features" class="optional">기능</a>
+    <a href="install.html">설치 안내</a>
+    <a href="support.html">지원</a>
+    <a href="changelog.html" class="optional">변경 기록</a>
+  </div>
+</nav>
+<div class="sub-nav">
+  <div class="inner">
+    <span class="title">개인정보 처리방침</span>
+    <div class="links">
+      <a href="./#security" class="optional">보안</a>
+      <a href="https://apps.apple.com/kr/app/id6830655052">App Store</a>
+      <a class="btn small" href="./#download">맥 앱 받기</a>
+    </div>
+  </div>
 </div>
+<main>
 
-<h2>앱이 다루는 정보</h2>
-<ul>
-<li><b>화면·입력·파일</b>: 사용자가 연결한 자신의 기기끼리 직접 주고받습니다. 전송 내용은 연결마다 새로 만든 키로 암호화되며, 어디에도 저장하지 않습니다.</li>
-<li><b>페어링 정보</b>: 처음 연결할 때 만든 페어링 열쇠와 기기 이름은 각 기기 안에만 저장됩니다(아이폰·아이패드는 키체인). 앱을 지우면 함께 지워집니다.</li>
-<li><b>받은 파일</b>: 맥 ↔ 맥 파일 전송으로 받은 파일은 받는 맥의 다운로드/온유 리모트 폴더에만 저장됩니다.</li>
-<li><b>로컬 네트워크</b>: 같은 Wi-Fi에 있는 맥을 찾기 위해서만 사용합니다.</li>
-<li><b>맥 알림 받기(선택)</b>: 사용자가 켜면, 맥이 보내는 알림(제목·내용·맥 이름)을 사용자 <b>본인 iCloud 계정의 개인 저장소</b>(Apple CloudKit)에 잠시 저장해 같은 계정의 아이폰·아이패드로 전달합니다. 개발자는 이 저장소에 접근할 수 없으며, 기록은 이틀 뒤 맥이 지웁니다.</li>
-<li><b>다른 앱 알림 전달(선택, 맥)</b>: 사용자가 직접 고른 앱의 알림만 맥의 알림 센터 기록에서 읽어 위 방식으로 전달합니다. 기본으로 꺼져 있고, 켜려면 사용자가 '전체 디스크 접근' 권한을 줘야 합니다. 고르지 않은 앱의 알림 내용은 읽지 않습니다.</li>
-<li><b>클립보드 공유(선택, 맥 ↔ 맥)</b>: 연결된 두 맥 사이에서 복사한 글자만 암호화해 주고받으며 저장하지 않습니다. 암호 관리자가 숨김으로 표시한 내용은 보내지 않습니다.</li>
-<li><b>진단 기록(맥)</b>: 연결 시작·끝, 오류 같은 동작 기록만 맥 안(~/Library/Application Support/MacRemote)에 남깁니다. 화면·입력·알림 내용은 남기지 않습니다.</li>
-</ul>
+<article class="article">
+  <h1>개인정보 처리방침</h1>
+  <p class="caption">온유 리모트 · 시행일 2026년 11월 11일 (1.1)</p>
+  <div class="note"><b>온유 리모트는 개인정보를 수집하지 않습니다.</b> 개발자나 제3자의 서버로 어떤 정보도 보내지 않으며, 광고·분석·추적 도구를 쓰지 않습니다.</div>
 
-<h2>외부 서비스</h2>
-<p>맥 알림 받기는 Apple의 iCloud(CloudKit)와 푸시 알림을 사용하며, Apple의 개인정보 처리방침을 따릅니다.</p>
-<p>밖에서 연결할 때 사용자가 직접 설치한 Tailscale을 쓸 수 있습니다. Tailscale은 별도 서비스이며 그 회사의 개인정보 처리방침을 따릅니다. 온유 리모트는 Tailscale에 어떤 정보도 따로 보내지 않습니다.</p>
+  <h2>앱이 다루는 정보</h2>
+  <ul>
+    <li><b>화면·입력·파일</b>: 사용자가 연결한 자신의 기기끼리 직접 주고받습니다. 전송 내용은 연결마다 새로 만든 키로 암호화되며, 어디에도 저장하지 않습니다.</li>
+    <li><b>페어링 정보</b>: 처음 연결할 때 만든 페어링 열쇠와 기기 이름은 각 기기 안에만 저장됩니다(아이폰·아이패드는 키체인). 앱을 지우면 함께 지워집니다.</li>
+    <li><b>받은 파일</b>: 맥 ↔ 맥 파일 전송으로 받은 파일은 받는 맥의 다운로드/온유 리모트 폴더에만 저장됩니다.</li>
+    <li><b>로컬 네트워크</b>: 같은 Wi-Fi에 있는 맥을 찾기 위해서만 사용합니다.</li>
+    <li><b>맥 알림 받기(선택)</b>: 사용자가 켜면, 맥이 보내는 알림(제목·내용·맥 이름)을 사용자 <b>본인 iCloud 계정의 개인 저장소</b>(Apple CloudKit)에 잠시 저장해 같은 계정의 아이폰·아이패드로 전달합니다. 개발자는 이 저장소에 접근할 수 없으며, 기록은 이틀 뒤 맥이 지웁니다.</li>
+    <li><b>다른 앱 알림 전달(선택, 맥)</b>: 사용자가 직접 고른 앱의 알림만 맥의 알림 센터 기록에서 읽어 위 방식으로 전달합니다. 기본으로 꺼져 있고, 켜려면 사용자가 '전체 디스크 접근' 권한을 줘야 합니다. 고르지 않은 앱의 알림 내용은 읽지 않습니다.</li>
+    <li><b>클립보드 공유(선택, 맥 ↔ 맥)</b>: 연결된 두 맥 사이에서 복사한 글자만 암호화해 주고받으며 저장하지 않습니다. 암호 관리자가 숨김으로 표시한 내용은 보내지 않습니다.</li>
+    <li><b>진단 기록(맥)</b>: 연결 시작·끝, 오류 같은 동작 기록만 맥 안(~/Library/Application Support/MacRemote)에 남깁니다. 화면·입력·알림 내용은 남기지 않습니다.</li>
+  </ul>
 
-<h2>Privacy Policy (English)</h2>
-<p>Onyu Remote does not collect any personal data. Screen, input and files are sent only between the user's own devices, end-to-end encrypted per connection, and are not stored. Pairing keys stay on each device. No analytics, ads or tracking. Optional Mac-to-iPhone alerts are stored briefly in the user's own private iCloud database (Apple CloudKit), which the developer cannot access, and are deleted after two days. Forwarding other apps' notifications is off by default and reads only the apps the user selects. Clipboard sharing between Macs is encrypted and not stored.</p>
+  <h2>외부 서비스</h2>
+  <p>맥 알림 받기는 Apple의 iCloud(CloudKit)와 푸시 알림을 사용하며, Apple의 개인정보 처리방침을 따릅니다.</p>
+  <p>밖에서 연결할 때 사용자가 직접 설치한 Tailscale을 쓸 수 있습니다. Tailscale은 별도 서비스이며 그 회사의 개인정보 처리방침을 따릅니다. 온유 리모트는 Tailscale에 어떤 정보도 따로 보내지 않습니다.</p>
+  <p>이 웹사이트는 GitHub Pages로 제공되며, 쿠키나 분석 도구를 쓰지 않습니다. 내려받기 정보를 보여 주려고 GitHub의 공개 정보를 읽습니다.</p>
 
-<h2>문의</h2>
-<p><a href="https://github.com/sanghyun97/onyu-remote/issues">GitHub에서 문의하기</a></p>
-<nav><a href="index.html">처음으로</a><a href="support.html">지원</a></nav>
-</main></body></html>
+  <h2>Privacy Policy (English)</h2>
+  <p>Onyu Remote does not collect any personal data. Screen, input and files are sent only between the user's own devices, end-to-end encrypted per connection, and are not stored. Pairing keys stay on each device. No analytics, ads or tracking. Optional Mac-to-iPhone alerts are stored briefly in the user's own private iCloud database (Apple CloudKit), which the developer cannot access, and are deleted after two days. Forwarding other apps' notifications is off by default and reads only the apps the user selects. Clipboard sharing between Macs is encrypted and not stored.</p>
+
+  <h2>문의</h2>
+  <p><a href="https://github.com/sanghyun97/onyu-remote/issues/new">GitHub에서 문의하기</a></p>
+</article>
+
+</main>
+<footer class="footer">
+  <div class="inner">
+    <div class="cols">
+      <div><h4>온유 리모트</h4><a href="./">소개</a><a href="./#features">기능</a><a href="./#download">맥 앱 내려받기</a><a href="https://apps.apple.com/kr/app/id6830655052">아이폰·아이패드 (App Store)</a></div>
+      <div><h4>도움말</h4><a href="install.html">설치 안내</a><a href="support.html">자주 묻는 것</a><a href="changelog.html">변경 기록</a><a href="https://github.com/sanghyun97/onyu-remote/issues/new">문의 남기기</a></div>
+      <div><h4>정책</h4><a href="privacy.html">개인정보 처리방침</a><a href="https://github.com/sanghyun97/onyu-remote/releases">모든 버전</a></div>
+    </div>
+    <p class="legal">© 2026 SANGHYUN LEE. 온유 리모트는 개인 개발자가 만든 독립 앱으로 Apple Inc.와 관계가 없으며, Apple의 후원이나 승인을 받지 않았습니다. Apple, Mac, macOS, iPhone, iPad, App Store는 미국 및 그 밖의 나라에 등록된 Apple Inc.의 상표입니다. Tailscale은 Tailscale Inc.의 상표입니다.</p>
+  </div>
+</footer>
+<script src="site.js" defer></script>
+</body>
+</html>
